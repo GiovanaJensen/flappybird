@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -149,7 +149,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_0
+      name: BackgroundDay
       rect:
         serializedVersion: 2
         x: 0
@@ -170,7 +170,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_1
+      name: BackgroundNight
       rect:
         serializedVersion: 2
         x: 145
@@ -191,7 +191,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_2
+      name: Ground
       rect:
         serializedVersion: 2
         x: 292
@@ -1220,7 +1220,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_51
+      name: PipeOrangeOne
       rect:
         serializedVersion: 2
         x: 0
@@ -1241,7 +1241,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_52
+      name: PipeOrangeTwo
       rect:
         serializedVersion: 2
         x: 28
@@ -1262,7 +1262,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_53
+      name: PipeGreenOne
       rect:
         serializedVersion: 2
         x: 56
@@ -1283,7 +1283,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_54
+      name: PipeGreenTwo
       rect:
         serializedVersion: 2
         x: 84
@@ -1304,7 +1304,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_55
+      name: BlueBirdOne
       rect:
         serializedVersion: 2
         x: 115
@@ -1346,7 +1346,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Mobile-Flappy-Bird-Version-12-Sprites_57
+      name: BlueBirdTwo
       rect:
         serializedVersion: 2
         x: 115
@@ -1860,8 +1860,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Mobile-Flappy-Bird-Version-12-Sprites_0: -1488456029
-      Mobile-Flappy-Bird-Version-12-Sprites_1: 234949422
+      BackgroundDay: -1488456029
+      BackgroundNight: 234949422
+      BlueBirdOne: -527059468
+      BlueBirdTwo: -865526825
+      Ground: -407224714
       Mobile-Flappy-Bird-Version-12-Sprites_10: 118996739
       Mobile-Flappy-Bird-Version-12-Sprites_11: -1884376559
       Mobile-Flappy-Bird-Version-12-Sprites_12: -713493468
@@ -1872,7 +1875,6 @@ TextureImporter:
       Mobile-Flappy-Bird-Version-12-Sprites_17: 1227019000
       Mobile-Flappy-Bird-Version-12-Sprites_18: 1884985188
       Mobile-Flappy-Bird-Version-12-Sprites_19: -1673176472
-      Mobile-Flappy-Bird-Version-12-Sprites_2: -407224714
       Mobile-Flappy-Bird-Version-12-Sprites_20: 1032726889
       Mobile-Flappy-Bird-Version-12-Sprites_21: -1312333298
       Mobile-Flappy-Bird-Version-12-Sprites_22: 1430295179
@@ -1907,13 +1909,7 @@ TextureImporter:
       Mobile-Flappy-Bird-Version-12-Sprites_49: -258306927
       Mobile-Flappy-Bird-Version-12-Sprites_5: 1850697590
       Mobile-Flappy-Bird-Version-12-Sprites_50: -563724590
-      Mobile-Flappy-Bird-Version-12-Sprites_51: 563086394
-      Mobile-Flappy-Bird-Version-12-Sprites_52: -1170732263
-      Mobile-Flappy-Bird-Version-12-Sprites_53: 1146202490
-      Mobile-Flappy-Bird-Version-12-Sprites_54: 131591043
-      Mobile-Flappy-Bird-Version-12-Sprites_55: -527059468
       Mobile-Flappy-Bird-Version-12-Sprites_56: 873223733
-      Mobile-Flappy-Bird-Version-12-Sprites_57: -865526825
       Mobile-Flappy-Bird-Version-12-Sprites_58: -463266839
       Mobile-Flappy-Bird-Version-12-Sprites_59: -1807380539
       Mobile-Flappy-Bird-Version-12-Sprites_6: -1298772514
@@ -1941,6 +1937,10 @@ TextureImporter:
       Mobile-Flappy-Bird-Version-12-Sprites_8: -494281444
       Mobile-Flappy-Bird-Version-12-Sprites_80: 1085021641
       Mobile-Flappy-Bird-Version-12-Sprites_9: 1009386264
+      PipeGreenOne: 1146202490
+      PipeGreenTwo: 131591043
+      PipeOrangeOne: 563086394
+      PipeOrangeTwo: -1170732263
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
